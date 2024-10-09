@@ -10,10 +10,17 @@
 
 body{
     background-color: #11071F;
+    overflow-x: hidden;
 }
 
-main{
-    padding: 0px 50px;
+.hero img{
+    left: 10vh;
+    top: 10vh;
+    height: fit-content;
+    width: 100vw;
+    position: absolute;
+    height: 100vh;
+    transform: scale(1.8);
 }
 
 .main-title span{
@@ -24,12 +31,14 @@ main{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 55px;
+    padding: 0px 50px;
 }
 
 .main-desc{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 22px;
+    padding: 0px 50px;
 }
 
 header .container{
@@ -47,18 +56,15 @@ header .container{
     width: 120px;
 }
 
-main{
-    height: 80vh;
-}
-
 .hero{
     display: flex;
 }
 
 .cards{
-    margin: 50px 0px;
+    margin: 60vh 0px;
     display: flex;
     justify-content: space-between;
+    padding: 0px 50px;
 }
 
 .card-img{
@@ -109,7 +115,6 @@ main{
 }
 
 footer{
-    margin-top: 60px;
     display: flex;
     height: 165px;
     background-color: #0E0C12;
